@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  background: #b2e3e6;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 2px solid #9aaeb3;
+}
+
+.logo {
+  width: 140px;
+  margin-left: 90px;   
+  margin-right: 20px;  
+}
+
+.judul {
+  flex: 1;                 
+  text-align: center;
+}
+
+.garis-judul {
+  width: 80%;
+  border: none;
+  border-top: 3px solid #4a90a4;
+  margin: 10px auto 20px;
+}
+
+.judul-univ {
+  background: #b2e3e6;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 10px;
+  border-top: 2px solid #8faeb5;
+  border-bottom: 2px solid #8faeb5;
+}
+
+.judul-univ span {
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.menu {
+  background: #eee;
+  padding: 15px;
+  text-align: center;
+}
+
+.menu a {
+  display: block;
+  background: crimson;
+  color: white;
+  padding: 8px;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+.content {
+  padding: 20px;
+}
+
+form {
+  width: 60%;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 6px;
+}
+
+button {
+  margin-top: 15px;
+  background: green;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.footer {
+  background: #b2e3e6;
+  text-align: center;
+  padding: 10px;
+}
+
+.judul-jadwal {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tabel-jadwal {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  border: 3px solid #4a90a4; 
+}
+
+.tabel-jadwal th,
+.tabel-jadwal td {
+  border: 1px solid #6b6b6b;
+  padding: 8px;
+  height: 40px;
+}
+
+.tabel-jadwal th {
+  background-color: #dddddd;
+}
+
+/* Warna kolom sesuai gambar */
+.senin {
+  background-color: #f8bcbc;
+}
+
+.selasa {
+  background-color: #b8f8b8;
+}
+
+.rabu {
+  background-color: #bcbcf8;
+}
+
+.kamis {
+  background-color: #f8f3a8;
+}
+
+.istirahat {
+  background-color: #eeeeee;
+  font-weight: bold;
+}
+
+.tabel-jadwal td:empty::before {
+  content: "-";
+  color: transparent;
+}
